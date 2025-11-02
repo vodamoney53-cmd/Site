@@ -514,32 +514,7 @@
                 <div class="balance"><span class="currency">MZN</span> <span id="user-balance">0.00</span></div>
             </div>
             
-            <div class="dashboard-grid">
-                <!-- Tarefas Diárias -->
-                <div class="card">
-                    <h2 class="card-title">
-                        <i></i> Tarefas Diárias
-                    </h2>
-                    <ul class="task-list">
-                        <li class="task-item">
-                            <span>Ganhar</span>
-                            <span class="task-reward">MZN 0.05</span>
-                            <button class="btn btn-secondary" onclick="completeTask(0.05)">Completar</button>
-                        </li>
-                        <li class="task-item">
-                            <span>Ganhar</span>
-                            <span class="task-reward">MZN 0.05</span>
-                            <button class="btn btn-secondary" onclick="completeTask(0.05)">Completar</button>
-                        </li>
-                        <li class="task-item">
-                            <span>Ganhar</span>
-                            <span class="task-reward">MZN 0.05</span>
-                            <button class="btn btn-secondary" onclick="completeTask(0.05)">Completar</button>
-                        </li>
-                        <li class="task-item">
-                            <span>Ganhar</span>
-                            <span class="task-reward">MZN 0.05</span>
-                            <button class="btn btn-secondary" onclick="completeTask(0.05)">Completar</button>
+     
                         </li>
                     </ul>
                 </div>
@@ -547,9 +522,9 @@
                 <!-- Contador de 24h -->
                 <div class="card">
                     <h2 class="card-title">
-                        <i>⏰</i> Bónus Diário
+                        <i>⏰</i> Tarefa Diário
                     </h2>
-                    <p>Reclame o seu bónus diário a cada 24 horas</p>
+                    <p>Reclame a sua tarefa diário a cada 24 horas</p>
                     <div class="countdown" id="countdown">24:00:00</div>
                     <button class="btn" id="daily-bonus-btn" onclick="claimDailyBonus()">Reclamar Bónus de MZN 10.00</button>
                 </div>
@@ -590,7 +565,7 @@
                     <form class="transaction-form" id="withdraw-form">
                         <input type="text" id="withdraw-name" placeholder="Seu nome completo" required>
                         <input type="tel" id="withdraw-phone" placeholder="Seu número de telefone" required>
-                        <input type="number" id="withdraw-amount" placeholder="Valor a levantar (MZN)" min="800" step="10" required>
+                        <input type="number" id="withdraw-amount" placeholder="Valor a levantar (MZN)" min="20" step="350" required>
                         <button type="submit" class="btn">Levantar</button>
                     </form>
                 </div>
